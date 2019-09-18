@@ -22,7 +22,6 @@ import java.time.Duration;
 import java.util.Optional;
 
 public interface DockerConfig {
-    DockerClient getClient();
 
     Optional<String> getGroup();
 
@@ -39,4 +38,10 @@ public interface DockerConfig {
     String getOutputPath(String file);
 
     String getDataPath();
+
+    Environment getGlobalEnvironment();
+
+    String getDockerHost();
+
+    String getJavaPsVersion();
 }
