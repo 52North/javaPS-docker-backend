@@ -16,30 +16,5 @@
  */
 package org.n52.javaps.docker;
 
-import java.time.Duration;
-import java.util.Optional;
-
-public interface DockerConfig {
-
-    Optional<String> getGroup();
-
-    Optional<String> getUser();
-
-    Optional<Duration> getTimeout();
-
-    String getInputPath();
-
-    String getInputPath(String file);
-
-    String getOutputPath();
-
-    String getOutputPath(String file);
-
-    String getDataPath();
-
-    Environment getGlobalEnvironment();
-
-    String getDockerHost();
-
-    String getJavaPsVersion();
+public class DockerJobConfigFactory {
 }
