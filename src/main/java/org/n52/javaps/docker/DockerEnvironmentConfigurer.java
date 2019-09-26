@@ -14,18 +14,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.n52.javaps.docker.util;
+package org.n52.javaps.docker;
 
-import org.springframework.core.convert.converter.Converter;
-
-import java.time.Duration;
-
-@TypeConverter
-public class DurationToStringConverter implements Converter<Duration, String> {
-
-    @Override
-    public String convert(Duration source) {
-        return source.toString();
-    }
-
+/**
+ * Interface to allow customization of the global Docker environment.
+ *
+ * @author Christian Autermann
+ */
+@FunctionalInterface
+public interface DockerEnvironmentConfigurer {
+    /**
+     * Customize the global {@link Environment}.
+     *
+     * @param environment The environment.
+     */
+    void configure(Environment environment);
 }
