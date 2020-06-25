@@ -171,7 +171,24 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>      
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<configuration>
+							<descriptors>
+								<descriptor>src/main/config/assemble.xml</descriptor>
+							</descriptors>
+						</configuration>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<phase>install</phase>
+					</execution>
+				</executions>
+			</plugin>
             <plugin>
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
