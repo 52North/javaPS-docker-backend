@@ -41,7 +41,6 @@
         <version.arctic-sea>7.3.1</version.arctic-sea>
         <findbugs.version>3.0.2</findbugs.version>
     </properties>
-    <inceptionYear>2019</inceptionYear>
     <dependencyManagement>
         <dependencies>
             <dependency>
