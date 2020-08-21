@@ -40,6 +40,12 @@
                 <include>com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider</include>
                 <include>com.fasterxml.jackson.jaxrs:jackson-jaxrs-base</include>
                 <include>com.kohlschutter.junixsocket:junixsocket-common</include>
+                <include>com.kohlschutter.junixsocket:junixsocket-native-common</include>
+                <include>org.apache.commons:commons-compress</include>
+                <include>org.glassfish.jersey.inject:jersey-hk2</include>
+                <include>org.glassfish.hk2:hk2-api</include>
+                <include>org.glassfish.hk2:hk2-utils</include>
+                <include>org.glassfish.hk2:hk2-locator</include>
 			</includes>
 			<outputDirectory>deploy-to-javaps</outputDirectory>
 		</dependencySet>
