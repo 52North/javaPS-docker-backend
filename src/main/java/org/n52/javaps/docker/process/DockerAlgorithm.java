@@ -96,6 +96,8 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.DoubleStream;
 import java.util.stream.Stream;
 
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
@@ -560,6 +562,8 @@ public class DockerAlgorithm extends AbstractAlgorithm {
         outputs.put(outputInfo.getDescription().getId(), data);
     }
 
+    // workaround for https://github.com/spotbugs/spotbugs/issues/756
+    @SuppressFBWarnings("RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE")
     private void readLiteralOutput(DockerOutputInfo outputInfo, ProcessOutputs outputs)
             throws DecodingException, IOException {
         try (InputStream stream = readFile(outputInfo);
