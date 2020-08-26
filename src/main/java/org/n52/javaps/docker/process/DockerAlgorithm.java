@@ -428,7 +428,7 @@ public class DockerAlgorithm extends AbstractAlgorithm {
     }
 
     private void createBoundingBoxInput(TypedBoundingBoxInputDescription description,
-                                        Environment environment,                                        List<Data<?>> values) {
+                                        Environment environment, List<Data<?>> values) {
         if (description.getOccurence().isMultiple()) {
             int index = 0;
             for (Data<?> data : values) {
