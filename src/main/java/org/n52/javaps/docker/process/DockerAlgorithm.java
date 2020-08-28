@@ -265,7 +265,6 @@ public class DockerAlgorithm extends AbstractAlgorithm {
     private void pullImageIfNotPresent(String image) throws ExecutionException {
         Logger log = jobConfig.log();
         log.info("Pulling image {}.", image);
-        DockerImage dimg = DockerImage.fromString(image);
         if (jobConfig.client().listImagesCmd().withImageNameFilter(image).exec().isEmpty()) {
             pullImage(image);
             log.info("Successfully pulled image {}.", image);
