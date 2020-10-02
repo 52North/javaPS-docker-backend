@@ -1,8 +1,5 @@
 # JavaPS Docker Backend Setup Guide
 
-Created By: @mohammedsaad
-Last Edited: Apr 08, 2020 11:00 AM
-
 This page aims to guide developers on how to create and add new custom processes to JavaPS using Docker images.
 
 # How can the javaPS Docker backend be extended with additional Docker-based processes?
