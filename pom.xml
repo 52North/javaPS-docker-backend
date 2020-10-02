@@ -59,9 +59,9 @@
     
     <scm>
         <url>https://github.com/52North/javaPS-docker-backend</url>
-        <connection>scm:git:git://github.com/52North/javaPS-docker-backend.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/52North/javaPS-docker-backend.git</developerConnection>
-        <tag>HEAD</tag>
+        <connection>scm:git:https://github.com/52North/javaPS-docker-backend.git</connection>
+        <developerConnection>scm:git:https://github.com/52North/javaPS-docker-backend.git</developerConnection>
+        <tag>v1.0.0</tag>
     </scm>
 
     <issueManagement>
