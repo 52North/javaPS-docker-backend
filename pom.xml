@@ -35,7 +35,7 @@
         <version.javaPS>1.6.0</version.javaPS>
         <version.docker-java>3.2.1</version.docker-java>
         <version.spring-boot>2.2.6.RELEASE</version.spring-boot>
-        <version.joda-time>2.10.5</version.joda-time>
+        <version.joda-time>2.10.6</version.joda-time>
         <version.commons-compress>1.20</version.commons-compress>
         <version.spotbugs>4.0.1</version.spotbugs>
         <version.arctic-sea>8.0.1</version.arctic-sea>
