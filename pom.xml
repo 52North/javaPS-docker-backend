@@ -38,7 +38,7 @@
         <version.joda-time>2.10.5</version.joda-time>
         <version.commons-compress>1.20</version.commons-compress>
         <version.spotbugs>4.0.1</version.spotbugs>
-        <version.arctic-sea>7.3.1</version.arctic-sea>
+        <version.arctic-sea>8.0.1</version.arctic-sea>
         <findbugs.version>3.0.2</findbugs.version>
     </properties>
     <dependencyManagement>
