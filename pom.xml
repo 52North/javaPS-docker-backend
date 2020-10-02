@@ -33,7 +33,7 @@
     <inceptionYear>2019</inceptionYear>
     <properties>
         <version.javaPS>1.6.0</version.javaPS>
-        <version.docker-java>3.2.1</version.docker-java>
+        <version.docker-java>3.2.5</version.docker-java>
         <version.spring-boot>2.2.6.RELEASE</version.spring-boot>
         <version.joda-time>2.10.6</version.joda-time>
         <version.commons-compress>1.20</version.commons-compress>
@@ -106,6 +106,12 @@
             <groupId>com.github.docker-java</groupId>
             <artifactId>docker-java</artifactId>
             <version>${version.docker-java}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.hamcrest</groupId>
+                    <artifactId>hamcrest</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
