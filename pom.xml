@@ -31,6 +31,48 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>javaPS Docker Process Repository</name>
     <inceptionYear>2019</inceptionYear>
+    <url>https://github.com/52North/javaPS-docker-backend</url>
+    
+    <developers>
+        <developer>
+            <id>autermann</id>
+            <name>Christian Autermann</name>
+            <email>c.autermann@52north.org</email>
+            <organization>${project.organization.name}</organization>
+            <organizationUrl>${project.organization.url}</organizationUrl>
+            <timezone>GMT+1</timezone>
+        </developer>
+        <developer>
+            <id>bpross-52n</id>
+            <name>Benjamin Pross</name>
+            <email>b.pross@52north.org</email>
+            <organization>${project.organization.name}</organization>
+            <organizationUrl>${project.organization.url}</organizationUrl>
+            <timezone>GMT+1</timezone>
+        </developer>
+    </developers>
+    
+    <scm>
+        <url>https://github.com/52North/javaPS-docker-backend</url>
+        <connection>scm:git:git://github.com/52North/javaPS-docker-backend.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/52North/javaPS-docker-backend.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub issues</system>
+        <url>https://github.com/52North/javaPS/issues?state=open</url>
+    </issueManagement>
+    
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+    
     <properties>
         <version.javaPS>1.6.0</version.javaPS>
         <version.docker-java>3.2.5</version.docker-java>
