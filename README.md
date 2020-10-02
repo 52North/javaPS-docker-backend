@@ -209,33 +209,3 @@ after requesting the result from the provided URL in the header the response pat
     ]
 }
 ```
-
-## Documentation of the steps required to setup the development environment.
-
-## **Dev environment setup**
-
-1. init the `javaps-rest` submodule: `git submodule update --init javaps-rest/`
-2. run maven (e.g. `mvn clean install` or via an IDE)
-3. build the Docker image: `docker build -f local-build.Dockerfile -t eopad-javaps:latest .`
-4. make sure of containing the required environment variables in the .env file
-5. run the Docker container (linux): `docker run -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock --env-file .env eopad-javaps:latest`
-6. run the Docker container (windows): `docker run -p 8080:8080 -v //var/run/docker.sock:/var/run/docker.sock --env-file .env eopad-javaps:latest`
-
-**Example of the .env file**
-
-```
-LISTENER_GMU_USERNAME=<username>
-LISTENER_GMU_PASSWORD=<password>
-LISTENER_GMU_ENABLED=true
-LISTENER_DEIMOS_ENABLED=true
-LISTENER_DEIMOS_USERNAME=
-LISTENER_DEIMOS_PASSWORD=
-SCIHUB_USERNAME=<username>
-SCIHUB_PASSWORD=<password>
-SERVICE_SERVICE_URL=http://localhost:8080/service
-SERVICE_IDENTIFICATION_TITLE={"en":"52°North EOPAD javaPS @ localhost"}
-SERVICE_IDENTIFICATION_ABSTRACT={"en":"52°North javaPS for OGC's Testbed-15 EOPAD Thread @ localhost"}
-SERVICE_PROVIDER_INDIVIDUAL_NAME=Christian Autermann
-SERVICE_PROVIDER_POSITION_NAME=Developer
-EOPAD_PROCESSES_ENABLED=false
-```
