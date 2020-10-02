@@ -33,6 +33,11 @@
     <inceptionYear>2019</inceptionYear>
     <url>https://github.com/52North/javaPS-docker-backend</url>
     
+    <organization>
+        <name>52North Initiative for Geospatial Open Source Software GmbH</name>
+        <url>https://52north.org</url>
+    </organization>
+
     <developers>
         <developer>
             <id>autermann</id>
