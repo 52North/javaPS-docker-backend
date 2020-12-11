@@ -82,7 +82,7 @@
         <version.spring-boot>2.4.0</version.spring-boot>
         <version.joda-time>2.10.6</version.joda-time>
         <version.commons-compress>1.20</version.commons-compress>
-        <version.arctic-sea>8.0.1</version.arctic-sea>
+        <version.arctic-sea>8.0.3</version.arctic-sea>
         <version.spotbugs>4.2.0</version.spotbugs>
         <version.findbugs>3.0.2</version.findbugs>
     </properties>
