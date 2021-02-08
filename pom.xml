@@ -80,7 +80,7 @@
         <version.javaPS>1.6.0</version.javaPS>
         <version.docker-java>3.2.7</version.docker-java>
         <version.spring-boot>2.4.1</version.spring-boot>
-        <version.joda-time>2.10.6</version.joda-time>
+        <version.joda-time>2.10.10</version.joda-time>
         <version.commons-compress>1.20</version.commons-compress>
         <version.arctic-sea>8.0.1</version.arctic-sea>
         <version.spotbugs>4.2.0</version.spotbugs>
