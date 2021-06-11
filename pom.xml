@@ -79,7 +79,7 @@
     <properties>
         <version.javaPS>1.7.1</version.javaPS>
         <version.docker-java>3.2.7</version.docker-java>
-        <version.spring-boot>2.4.1</version.spring-boot>
+        <version.spring-boot>2.5.1</version.spring-boot>
         <version.joda-time>2.10.10</version.joda-time>
         <version.commons-compress>1.20</version.commons-compress>
         <version.arctic-sea>8.2.0</version.arctic-sea>
